@@ -1,5 +1,5 @@
 {
-  "name": "Weck_city",
+  "name": "weck-city",
   "version": "0.2.0",
   "description": "A Wack Card game",
   "main": "index.js",
@@ -17,5 +17,14 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flowlessx/Weck-City.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Flowlessx/Weck-City/issues"
+  },
+  "homepage": "https://github.com/Flowlessx/Weck-City#readme"
 }
