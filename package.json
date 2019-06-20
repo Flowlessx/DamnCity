@@ -1,19 +1,28 @@
 {
-  "name": "weck-city",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "dankwars",
+  "version": "3.0.0",
+  "description": "A WANKY STANKY ASS GAME",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "postinstall": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Flowlessx/Weck-City.git"
+  "homepage": "https://github.com/penumbragames/tankanarchy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.25.0",
+    "jquery": "^3.4.1",
+    "morgan": "^1.9.1",
+    "popper.js": "^1.15.0",
+    "pug": "^2.0.4",
+    "socket.io": "^2.2.0",
+    "webpack-cli": "^3.3.4"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Flowlessx/Weck-City/issues"
-  },
-  "homepage": "https://github.com/Flowlessx/Weck-City#readme"
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.35.0"
+  }
 }
